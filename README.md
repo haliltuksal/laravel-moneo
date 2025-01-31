@@ -6,6 +6,7 @@
 git clone https://github.com/haliltuksal/laravel-moneo.git
 cd .\laravel-moneo\
 composer install
+cp .env.example .env
 php artisan key:generate
 php artisan migrate
 php artisan db:seed
